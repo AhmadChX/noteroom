@@ -1,11 +1,15 @@
 ---
-import Welcome from '../components/Welcome.astro';
+/**
+ * Main Dashboard Page
+ * 
+ * Entry point for the NoteRoom application.
+ * Loads the React Dashboard component with client-side hydration.
+ */
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import '../styles/global.css';
+import Dashboard from '../components/react/Dashboard';
 ---
 
 <Layout>
-	<Welcome />
+	<Dashboard client:load />
 </Layout>

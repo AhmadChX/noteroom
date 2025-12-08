@@ -1,11 +1,29 @@
+---
+/**
+ * Layout Component
+ *
+ * Base layout wrapper for all pages.
+ * Sets up:
+ * - HTML document structure
+ * - Meta tags and SEO
+ * - Google Fonts (Poppins) preconnect and loading
+ * - Global dark theme background color
+ * - Default font family
+ */
+---
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<meta name="description" content="Private, personal note-taking app for notes, todos, and snippets" />
+		{/* Preconnect to Google Fonts for faster loading */}
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+		<title>NoteRoom - Personal Note Dashboard</title>
 	</head>
 	<body>
 		<slot />
@@ -13,10 +31,13 @@
 </html>
 
 <style>
+	/* Global styles: dark theme background and Poppins font */
 	html,
 	body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		background-color: #0a0a0a; /* near-black for easier eye strain */
+		font-family: 'Poppins', sans-serif;
 	}
 </style>

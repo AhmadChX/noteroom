@@ -1,46 +1,21 @@
-# Astro Starter Kit: Basics
+# NoteRoom
 
-```sh
-npm create astro@latest -- --template basics
-```
+A personal note-taking dashboard built for fast capture and simple organization of notes, todos, and code snippets. Designed for simplicity, speed, and a clean dark interface.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+**All data is stored locally in your browser for privacy and instant access.**
 
-## 🚀 Project Structure
+## Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Quick Capture**: Create notes instantly with keyboard shortcuts (Ctrl/Cmd + Enter)
+- **Multiple Note Types**: Notes, todos, and code snippets with dedicated layouts
+- **Search & Filter**: Search across all content and filter by type
+- **Local Storage**: All data persists in your browser’s localStorage
+- **Dark Theme**: Clean, eye-friendly dark interface
+- **Responsive Design**: Works smoothly on both desktop and mobile
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## Tech Stack
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **[Astro](https://astro.build)** — Static site foundation  
+- **[React](https://react.dev)** — Interactive UI components (islands)  
+- **[TypeScript](https://www.typescriptlang.org)** — Type-safe development  
+- **[Tailwind CSS](https://tailwindcss.com)** — Utility-first styling  
