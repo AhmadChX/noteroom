@@ -1,6 +1,6 @@
 # NoteRoom
 
-A personal note-taking dashboard built for fast capture and simple organization of notes, todos, and code snippets. Designed for simplicity, speed, and a clean dark interface.
+A personal note taking dashboard that makes it easy to write and organize notes, todos, and code snippets. Designed for simplicity, speed, and a clean dark interface.
 
 **All data is stored locally in your browser for privacy and instant access.**
 
